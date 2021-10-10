@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BauhausCMedium';
+    src: url('fonts/BauhausCMedium.eot');
+    src: url('fonts/BauhausCMedium.eot') format('embedded-opentype'),
+         url('fonts/BauhausCMedium.woff2') format('woff2'),
+         url('fonts/BauhausCMedium.woff') format('woff'),
+         url('fonts/BauhausCMedium.ttf') format('truetype'),
+         url('fonts/BauhausCMedium.svg#BauhausCMedium') format('svg');
+}

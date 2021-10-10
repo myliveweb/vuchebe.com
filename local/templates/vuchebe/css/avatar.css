@@ -1,0 +1,181 @@
+#page .js-order-start {
+    padding: 0;
+    width: 100%;
+}
+#page .js-order-start.active span::before,
+#page .js-order-start:hover span::before {
+    border-color: #ff471a;
+}
+#page .js-order-start:active {
+    color: #ff471a;
+    background: #fff;
+    box-shadow: none;
+    box-shadow: 0 0 13px #999 inset;
+}
+#page .js-order-start.active:hover {
+    color: ffffff;
+    box-shadow: none;
+}
+#page .js-order-start.active:hover span {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.m-header .filter {
+    color: #ff471a;
+    line-height: 1.5;
+    margin-right: 3px;
+}
+.m-header .filter.color-silver {
+    color: #9f9f9f;
+    text-decoration: none;
+    cursor: default;
+}
+
+#page .news-item .params-banner-top a {
+    white-space: nowrap;
+    margin-top: 10px;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+#page .news-item .params-banner-top a:hover {
+    border-bottom: none;
+}
+
+#page .news-item .params-banner {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+#page .news-item .color-silver {
+    color: #9f9f9f;
+    cursor: pointer;
+    border-bottom: 1px dashed #9f9f9f;
+    margin-right: 15px;
+}
+#page .error-start-stop {
+    color: red;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    display: none;
+}
+
+#page .textarea .fast-touch {
+    color: #9f9f9f;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Поиск */
+.st-content-users form .button-filed .full {
+    display: block;
+}
+
+.st-content-users form .button-filed .short {
+    display: none;
+}
+
+.st-content-users form .button-filed button {
+    padding: 0;
+}
+
+#page .search-result {
+    margin: 0 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#page .search-result .result-left {
+    order: -1;
+}
+
+#page .search-result .result-right {
+    order: 1;
+}
+
+#page .display-name {
+    color: #000 !important;
+    cursor: pointer;
+    text-decoration-color: #ff471a;
+}
+#page .display-name span {
+    color: #ff471a;
+}
+
+#page .name-text {
+    color: #000 !important;
+    cursor: pointer;
+    text-decoration-color: #ff471a;
+}
+#page .name-text span {
+    color: #ff471a;
+}
+
+/* Форма поиска */
+
+#form-search-avatar .profile-avatar {
+    width: auto;
+    height: auto;
+}
+
+.auto-complit .item {
+    height: 38px;
+}
+.auto-complit .item div {
+    display: inline-block;
+}
+.auto-complit .item .user img {
+    border: 1px solid #ff5b32;
+}
+.auto-complit .item .teacher img {
+    border: 2px solid #ff5b32;
+}
+.auto-complit .item div.name {
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+.auto-complit .item div.book {
+    position: relative;
+    top: 5px;
+    float: right;
+    border-bottom: 1px dashed #9f9f9f;
+    color: #9f9f9f;
+}
+.auto-complit .item div.book.hide {
+    display: none;
+}
+
+@media screen and (max-width: 540px) {
+    .st-content-users form .search-filed {
+        width: 75%;
+    }
+
+    .st-content-users form .button-filed {
+        width: 25%;
+    }
+
+    .st-content-users form .button-filed .full {
+        display: none;
+    }
+
+    .st-content-users form .button-filed .short {
+        display: block;
+    }
+
+    .st-content-users .filter-search .filter {
+        display: block;
+        margin-right: 0;
+    }
+
+    .st-content-users .filter-search .filter .bulet {
+        top: 4px;
+        right: 4px;
+    }
+}

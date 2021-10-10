@@ -1,0 +1,227 @@
+.st-content-orders {
+  //padding: 25px 20px 20px;
+  //min-height: 500px;
+}
+.st-content-orders .filter-search {
+  margin-top: 5px;
+  text-align: left;
+}
+.st-content-orders .filter-search .filter {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: all 0.25s linear;
+  position: relative;
+}
+.st-content-orders .filter-search .filter .bulet {
+  position: absolute;
+  border-radius: 5px;
+  font-size: 9px;
+  top: -7px;
+  right: -8px;
+  padding: 2px 4px;
+  background-color: #ff4719;
+  color: #ffffff;
+  //display: none;
+}
+.st-content-orders .filter-search .filter span {
+  color: #ff4719;
+  border-bottom: 1px dotted #ff4719;
+  transition: all 0.25s linear;
+}
+.st-content-orders .filter-search .filter.active,
+.st-content-orders .filter-search .filter.active:hover {
+  background-color: #ff4719;
+}
+.st-content-orders .filter-search .filter.active span {
+  color: #ffffff;
+  border-bottom: none;
+}
+.st-content-orders .filter-search .filter:hover {
+  background-color: #d4d4d4;
+}
+.display-name {
+  color: #000 !important;
+  cursor: pointer;
+  text-decoration-color: #ff471a;
+}
+.display-name span {
+  color: #ff471a;
+}
+#box-line .js-bookmark {
+  padding: 0;
+  width: 100%;
+  //font-family: Verdana;
+}
+.js-bookmark.active span::before,
+.js-bookmark:hover span::before {
+  border-color: #ff471a;
+}
+.js-bookmark:active {
+  color: #ff471a;
+  background: #fff;
+  box-shadow: none;
+  box-shadow: 0 0 13px #999 inset;
+}
+.js-bookmark.active:hover {
+  color: ffffff;
+  box-shadow: none;
+}
+.js-bookmark.active:hover span {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.my-baloon {
+  padding: 5px 10px 5px 5px;
+  border: 1px solid #ff471a;
+  box-shadow: 1px 1px 3px #ccc;
+  position: absolute;
+  width: 155px;
+  background: #fff;
+  z-index: 9999;
+  bottom: 68px;
+  border-radius: 5px;
+  display: none;
+}
+.my-baloon .image {
+  width: auto;
+  margin: 10px 0 10px 10px;
+}
+.my-baloon .image:first-child {
+}
+.my-baloon .image img {
+  width: 22px;
+  border-radius: 50%;
+  border: 1px solid #ff471a;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.news-item .st-baloon {
+  padding: 5px 10px 5px 5px;
+  border: 1px solid #ff471a;
+  box-shadow: 1px 1px 3px #ccc;
+  position: absolute;
+  background: #fff;
+  z-index: 9999;
+  width: 155px;
+  top: -60px;
+  border-radius: 5px;
+  display: none;
+}
+.news-item .st-baloon .image {
+  width: auto;
+  margin: 10px 0 10px 10px;
+}
+.news-item .st-baloon .image:first-child {
+}
+.news-item .st-baloon .image img {
+  width: 22px;
+  border-radius: 50%;
+  border: 1px solid #ff471a;
+  padding: 0px;
+  cursor: pointer;
+}
+.st-baloon .more-baloon {
+  text-align: center;
+}
+.st-baloon .more-baloon span {
+  color: #9f9f9f;
+  cursor: pointer;
+  border-bottom: 1px dashed #9f9f9f;
+}
+.page-rating .button.active {
+  color: #ff471a;
+  background: #fff;
+  border-color: #ff471a;
+}
+.page-rating .button.active span::before {
+  border-color: #ff471a;
+}
+.button.js-b-left:hover,
+.button.js-b-right:hover,
+.button.js-news-left:hover,
+.button.js-news-right:hover,
+.button.js-event-left:hover,
+.button.js-event-right:hover,
+.button.js-event-go:hover {
+  /*color: #ff471a;
+    background: #fff;*/
+  color: #fff;
+  background: #ff471a;
+  border-color: #ff471a;
+  box-shadow: none;
+}
+.button.js-b-left:active,
+.button.js-b-right:active,
+.button.js-news-left:active,
+.button.js-news-right:active,
+.button.js-event-left:active,
+.button.js-event-right:active,
+.button.js-event-go:active {
+  color: #ff471a;
+  background: #fff;
+  box-shadow: none;
+  box-shadow: 0 0 13px #999 inset;
+}
+.button.js-event-left:hover span::before,
+.button.js-event-right:hover span::before,
+.button.js-event-go:hover span::before {
+  border-color: #ff471a;
+}
+.button.js-event-left.active,
+.button.js-event-right.active,
+.button.js-event-go.active {
+  color: #ff471a;
+  background: #fff;
+  border-color: #ff471a;
+}
+.button.js-event-left.active span::before,
+.button.js-event-right.active span::before,
+.button.js-event-go.active span::before {
+  border-color: #ff471a;
+}
+
+.st-content-orders form .button-filed .full {
+  display: block;
+}
+
+.st-content-orders form .button-filed .short {
+  display: none;
+}
+
+.st-content-orders form .button-filed button {
+  padding: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .st-content-orders form .search-filed {
+    width: 75%;
+  }
+
+  .st-content-orders form .button-filed {
+    width: 25%;
+  }
+
+  .st-content-orders form .button-filed .full {
+    display: none;
+  }
+
+  .st-content-orders form .button-filed .short {
+    display: block;
+  }
+
+  .st-content-orders .filter-search .filter {
+    display: block;
+    margin-right: 0;
+  }
+
+  .st-content-orders .filter-search .filter .bulet {
+    top: 4px;
+    right: 4px;
+  }
+}

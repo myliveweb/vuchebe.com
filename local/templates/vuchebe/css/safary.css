@@ -1,0 +1,21 @@
+.Safari{
+	
+}
+
+.Safari .st-select-city .name-city > span{
+	display: block;
+}
+.Safari .st-setting .user-name{
+	display: block;
+	float: left;
+	margin-top: 8px;
+}
+.Safari .st-setting .st-right{
+	float: right;
+}
+.Safari .st-select-search .a-label{
+	text-decoration: none;
+}
+.Safari .page-item > p{
+	clear: both;
+}

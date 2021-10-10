@@ -1,0 +1,28 @@
+# Исключаем всё
+/*
+# Кроме самого .gitignore (и как следствие всего, что в нём написано)
+!.gitignore
+# Индексный файл
+!index.php
+# Кроме папки local
+!/local/
+# Файл с БД исключаем
+/local/php_interface/dbconn.php
+# Эти папки оставляем для Git
+!/ajax/
+
+/ajax/lp.php
+
+!/auth/
+!/company/
+!/include/
+!/login/
+!/map/
+!/news/
+!/reg/
+!/search/
+!/tcpdf/
+!/uchebnye-zavedeniya/
+!/ugolok-znaniy/
+!/user/
+!/users/
